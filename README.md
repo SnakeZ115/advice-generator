@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [FrontEnd Mentor](https://www.frontendmentor.io/solutions/advice-generator-with-html-css-and-js--0ctkhdk7a)
+- Live Site URL: [Netlify](https://tubular-sunburst-7d3663.netlify.app)
 
 ## My process
 
