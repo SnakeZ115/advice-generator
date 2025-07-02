@@ -9,7 +9,7 @@ button.addEventListener('click', getAdvice);
 
 async function getAdvice() {
 
-    const url = 'https://api.adviceslip.com/advice';
+    const url =  `https://api.adviceslip.com/advice?timestamp=${Date.now()}'` 
     let result = await fetch(url);
     let data = await result.json();
 
