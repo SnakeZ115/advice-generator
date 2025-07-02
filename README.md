@@ -60,6 +60,7 @@ I wanna keep practicing because I liked to add some interactivity to the website
 
 - [Box-Shadow CSS](https://developer.mozilla.org/es/docs/Web/CSS/box-shadow) - This helped me to make the box shadow effect.
 - [Media Queries Breakpoints](https://dev.to/gerryleonugroho/responsive-design-breakpoints-2025-playbook-53ih) - This is an amazing website that talks about some breakpoints for media queries.
+- [Advice API](https://api.adviceslip.com) - This is the Advice API. There is some information about how to use it.
 
 ## Author
 
