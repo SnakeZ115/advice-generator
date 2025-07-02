@@ -1,0 +1,128 @@
+:root {
+    --primaryBlue: hsl(193, 38%, 86%);
+    --primaryGreen: hsl(150, 100%, 66%);
+    --blue-600: hsl(217, 19%, 38%);
+    --blue-900: hsl(217, 19%, 24%);
+    --blue-950: hsl(218, 23%, 16%);
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; /* 1rem = 10px */
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--blue-950);
+}
+
+h1 {
+    color: var(--primaryGreen);
+    margin: 5rem auto;
+    font-size: 1.5rem;
+    letter-spacing: .5rem;
+}
+
+img {
+    max-width: 100%;
+}
+
+.manrope-800 {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    margin-top: 5rem;
+    color: var(--primaryBlue);
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+/** Advice Generator **/
+
+.advice-generator {
+    background-color: var(--blue-900);
+    width: 90%;
+    height: auto;
+    text-align: center;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.divider {
+    background-image: url(../images/pattern-divider-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 90%;
+    height: 2rem;
+    margin: 0 auto 5rem;
+}
+
+.advice {
+    font-size: 2.5rem;
+    color: var(--primaryBlue);
+    margin: 0 3rem 2rem;
+}
+
+.button {
+    background-color: var(--primaryGreen);
+    width: 6rem;
+    height: 6rem;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    margin-top: -3rem;
+}
+
+.button:hover {
+    box-shadow: 0 0 5rem var(--primaryGreen);
+    cursor: pointer;
+}
+
+
+@media (min-width: 480px) {
+    .advice-generator {
+        width: 70%;
+    }
+
+    .divider {
+        background-image: url(../images/pattern-divider-desktop.svg);
+    }
+}
+
+@media (min-width: 768px) {
+    .advice-generator {
+        width: 50%;
+    }
+    
+    .divider {
+        background-image: url(../images/pattern-divider-desktop.svg);
+    }
+}
+
+@media (min-width: 1024px) {
+    .advice-generator {
+        width: 30%;
+    }
+
+    .divider {
+        background-image: url(../images/pattern-divider-desktop.svg);
+    }
+}
